@@ -23,4 +23,5 @@
 
 ## 例子🌰
 
+![开始界面](./static/imgs/start.png)
 ![演示视频](./static/imgs/wechat_cut.mp4)
