@@ -1,0 +1,13 @@
+#center-item {
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: center ;
+}
+
+.el-row {
+    margin-bottom: 20px;
+}
+
+.el-col {
+    border-radius: 2px;
+}
