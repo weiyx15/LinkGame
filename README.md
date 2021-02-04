@@ -23,4 +23,4 @@
 
 ## 例子🌰
 
-![演示视频](./static/imgs/demo_gif.gif)
+![演示视频](./static/imgs/wechat_compress.mp4)
