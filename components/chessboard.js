@@ -63,12 +63,12 @@ Vue.component("chessboard", {
         },
         handleClick(row, col) {
             curContent = this.doubleContents[row * this.COL + col];
-            if (this.preRow === -1 && this.preCol === -1) { 
+            if ((this.preRow === -1 && this.preCol === -1) || (row === this.preRow && col === this.preCol)) { 
                 if (!this.timerOn) {
                     this.timerOn = true;
                     this.startTimer();
                 }    
-                // 第一次点击或上次已配对，当前棋子变成“选中”状态
+                // 第一次点击或上次已配对或重复点击，当前棋子变成“选中”状态
                 this.states[row * this.COL + col] = "primary";
                 this.preRow = row;
                 this.preCol = col;
